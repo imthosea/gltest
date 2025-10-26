@@ -1,0 +1,14 @@
+[versions]
+lombok = "9.0.0"
+shadow = "9.2.2"
+
+#noinspection UnusedVersionCatalogEntry
+lwjgl = "3.3.3"
+joml = "1.10.8"
+
+[plugins]
+lombok = { id = "io.freefair.lombok", version.ref = "lombok" }
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
+
+[libraries]
+joml = { module = "org.joml:joml", version.ref = "joml" }
